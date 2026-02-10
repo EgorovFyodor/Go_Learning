@@ -5,7 +5,11 @@ import (
 )
 
 func main() {
-	Print_1()
-	Print_2()
-	fmt.Println("\n", add(42, 100))
+	fmt.Println("Hello, World")
+	Prnt()
+	for i := 0; i < 3; i++ {
+		Tm()
+	}
+
+	fmt.Println(Sqrt(2))
 }
